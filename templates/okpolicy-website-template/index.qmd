@@ -1,0 +1,36 @@
+---
+title: |
+  Oklahoma Policy Institute
+  Report Portal
+format:
+  okpolicy-website-template-html: default
+logo: "www/okpi-square.png"
+number-sections: true
+smooth-scroll: true
+knitr: 
+  opts_chunk: 
+    fig.align: center
+    echo: false
+    message: false
+    warning: false
+title-block-banner: "#2f507f"
+title-block-banner-color: "white"
+fontcolor: "black"
+linkcolor: "black"
+description: |
+  Welcome to the Oklahoma Policy Institute reporting hub.
+---
+
+## Reports
+
+### [Report 1](report-1/index.qmd)
+
+* Placeholder for Report 1.
+
+### [Report 2](report-2/index.qmd)
+
+* Placeholder for Report 2.
+
+---
+
+*Reports compiled by [Oklahoma Policy Institute](https://okpolicy.org/).*

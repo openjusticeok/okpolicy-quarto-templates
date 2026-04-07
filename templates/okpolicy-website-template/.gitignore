@@ -1,0 +1,10 @@
+# quarto
+/.quarto/
+/_site/
+*_files/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

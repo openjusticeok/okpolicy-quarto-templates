@@ -1,0 +1,27 @@
+---
+title: "Report 1"
+subtitle: "Placeholder Sub-Report"
+format:
+  okpolicy-website-template-html: default
+logo: "../www/okpi-square.png"
+number-sections: true
+smooth-scroll: true
+title-block-banner: "#2f507f"
+title-block-banner-color: "white"
+fontcolor: "black"
+linkcolor: "black"
+description: |
+  Placeholder description for Report 1
+---
+
+## Overview
+
+Placeholder for Report 1
+
+## Data
+
+The Datas
+
+## Results
+
+Results

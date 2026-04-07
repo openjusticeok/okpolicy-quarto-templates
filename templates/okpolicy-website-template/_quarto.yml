@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Oklahoma Policy Institute"
+  navbar:
+    background: "#2f507f"
+    foreground: "#ffffff"
+    search: false
+    left:
+      - href: index.qmd
+        text: About
+      - text: Reports
+        menu:
+          - href: report-1/index.qmd
+            text: "Report 1"
+          - href: report-2/index.qmd
+            text: "Report 2"
+
+format:
+  okpolicy-website-template-html: default
+  html:
+    toc: true

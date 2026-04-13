@@ -1,0 +1,9 @@
+# intended to be used by GitHub Actions via QUARTO_PROFILE=public
+#
+# activates the "public" profile, which triggers
+#   ::: {.content-hidden when-profile="public"} blocks
+#     to remove draft/experimental content from live pages
+
+project:
+  render:
+    - "*.qmd"

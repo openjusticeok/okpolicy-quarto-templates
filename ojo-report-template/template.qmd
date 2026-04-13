@@ -48,6 +48,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra tur
 
 This is a [link to some url](https://github.com/openjusticeok/ojo-report-template).
 
+::: {.content-hidden when-profile="public"}
+**Draft note:** This note will not appear in the public build.
+:::
+
 ## Data
 
 ### Data source
@@ -86,6 +90,12 @@ mtcars |>
 
 ## Methods
 
+::: {.content-hidden when-profile="public"}
+### Draft note
+
+Another example of a note that will not appear in the public build
+:::
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra turpis feugiat sem euismod interdum. Sed ultrices eget turpis ut malesuada. Donec vel nibh a arcu placerat sodales. Donec sagittis metus vitae placerat finibus. Curabitur a augue finibus nisl scelerisque molestie ac nec arcu. Vivamus lorem ligula, efficitur at scelerisque ac, bibendum a enim. Quisque non leo nibh. Sed non ante vel lacus ultricies fringilla. Maecenas ut massa tempor, ultrices lectus mollis, lobortis nisi. Donec dapibus magna nec suscipit vulputate. Sed placerat purus felis, eget egestas arcu ultricies eget. Curabitur leo ante, ultrices non elit vitae, sodales facilisis lacus. Nulla quis velit sollicitudin dolor laoreet porta. Mauris mauris orci, lacinia ac commodo non, vehicula nec metus. Integer imperdiet laoreet diam eu blandit.
 
 -   List item A
@@ -95,6 +105,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra tur
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra turpis feugiat sem euismod interdum. Sed ultrices eget turpis ut malesuada. Donec vel nibh a arcu placerat sodales. Donec sagittis metus vitae placerat finibus.
 
 ## Results
+
+::: {.content-hidden when-profile="public"}
+### Draft note
+- Example of staff notes section
+:::
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra turpis feugiat sem euismod interdum. Sed ultrices eget turpis ut malesuada. Donec vel nibh a arcu placerat sodales. Donec sagittis metus vitae placerat finibus. Curabitur a augue finibus nisl scelerisque molestie ac nec arcu. Vivamus lorem ligula, efficitur at scelerisque ac, bibendum a enim. Quisque non leo nibh. Sed non ante vel lacus ultricies fringilla.
 

@@ -31,6 +31,20 @@ description: |
 
 * Placeholder for Report 2.
 
+::: {.content-hidden when-profile="public"}
+## Draft Workflow
+This is showing 'draft' content of the report. It must be encased in a ::: {.content-hidden when-profile="public"} ::: conditional.
+If you want draft content to show: quarto render --profile drafts can be used.
+The draft versions of pages will appear in /drafts/ directory of site.
+If you don't want draft content to show: quarto render --profile public can be used.
+
+
+Projects in progress and not intended for public viewing should be developed within the `wip/` directory.
+
+The `wip` folder is a separate standalone sandboxing area. It will not render when you run `quarto render` from the root of this main project. 
+To build or preview WIP items, navigate the terminal to the `wip/` directory and run `quarto render` or `quarto preview` from there!
+:::
+
 ---
 
 *Reports compiled by [Oklahoma Policy Institute](https://okpolicy.org/).*

@@ -1,0 +1,17 @@
+# _quarto-drafts.yml
+#   calls watermark and banner to identify working in draft version of reports
+#   using quarto render --profile drafts
+#   same reports, draft content shown:
+#     (::: {.content-hidden when-profile="drafts"})
+
+project:
+  output-dir: _site/drafts
+  render:
+    - "*.qmd"
+
+format:
+  okpolicy-website-template-html:
+    css:
+      - draft.css
+    include-before-body:
+      - draft-banner.html

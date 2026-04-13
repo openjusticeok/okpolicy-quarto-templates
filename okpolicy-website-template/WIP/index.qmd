@@ -1,0 +1,30 @@
+---
+title: |
+  Oklahoma Policy Institute
+  Report Portal (WIP)
+logo: "www/okpi-square.png"
+number-sections: true
+smooth-scroll: true
+knitr: 
+  opts_chunk: 
+    fig.align: center
+    echo: false
+    message: false
+    warning: false
+title-block-banner: "#2f507f"
+title-block-banner-color: "white"
+fontcolor: "black"
+linkcolor: "black"
+description: |
+  Welcome to the work in progress environment.
+  Intended for storing prototype projects, legacy projects, and other content that is not intended for public viewing.
+---
+
+## WIP Projects
+
+### [WIP Project 1](wip-project-1/index.qmd)
+
+
+---
+
+*Reports compiled by [Oklahoma Policy Institute](https://okpolicy.org/).*

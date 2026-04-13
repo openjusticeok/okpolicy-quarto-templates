@@ -1,12 +1,15 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!wip/"
 
 website:
   title: "Oklahoma Policy Institute"
+  search: false
   navbar:
     background: "#2f507f"
     foreground: "#ffffff"
-    search: false
     left:
       - href: index.qmd
         text: About

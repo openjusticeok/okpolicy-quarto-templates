@@ -1,7 +1,9 @@
 # quarto
 /.quarto/
 /_site/
+wip/_site/
 *_files/
+/site_libs/
 
 # R
 .Rproj.user

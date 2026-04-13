@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Oklahoma Policy Institute"
+  search: false
+  navbar:
+    background: "#2f507f"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: About
+      - text: WIP Projects
+        menu:
+          - href: wip-project-1/index.qmd
+            text: "WIP Project 1"
+
+format:
+  html:
+    template-partials: 
+      - ../_extensions/okpolicy-website-template/title-block.html
+    theme: [yeti, ../_extensions/okpolicy-website-template/custom.scss]
+    toc: false
+    linkcolor: "#000000"
+    fontcolor: "#000000"

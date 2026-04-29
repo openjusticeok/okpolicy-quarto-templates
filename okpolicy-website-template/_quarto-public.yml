@@ -3,7 +3,17 @@
 # activates the "public" profile, which triggers
 #   ::: {.content-hidden when-profile="public"} blocks
 #     to remove draft/experimental content from live pages
+#
+# Usage in .qmd files:
+#   ::: {.content-hidden when-profile="public"}
+#   This content is HIDDEN in public builds (draft-only content)
+#   :::
 
 project:
   render:
     - "*.qmd"
+
+format:
+  okpolicy-website-template-html:
+    css:
+      - public.css

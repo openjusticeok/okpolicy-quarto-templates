@@ -21,6 +21,10 @@ website:
             text: "Report 2"
 
 format:
-  okpolicy-website-template-html: default
+  okpolicy-website-template-html:
+    css:
+      - draft.css
+    include-before-body:
+      - draft-banner.html
   html:
     toc: true

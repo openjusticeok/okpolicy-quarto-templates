@@ -6,11 +6,11 @@ Report starter template.
 
 ```bash
 quarto preview template.qmd
-quarto render --profile draft
-quarto render --profile public
+quarto render              # Draft mode (default)
+quarto render --profile public  # Public/clean mode
 ```
 
 ## What the profiles do
 
-- `draft`: adds a draft banner and watermark
+- Default (no profile): adds a draft banner and watermark
 - `public`: renders the clean public-safe version

@@ -1,9 +1,0 @@
-project:
-  type: default
-
-format:
-  ojo-report-template-html:
-    css:
-      - draft.css
-    include-before-body:
-      - draft-banner.html

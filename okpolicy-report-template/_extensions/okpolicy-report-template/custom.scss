@@ -1,7 +1,7 @@
 /* Additional formatting options: */
 /*-- scss:defaults --*/
 
-$title-color: #fdbc60 !default; 
+$title-color: #fdbc60 !default;
 /* 
 #fdbc60 = OKPI yellow
 #F6BE00 = OJO yellow
@@ -17,7 +17,11 @@ $subtitle-color: #ffffff !default;
 
 /* --- Logo / Header related stuff --- */
 /* Logo spacing */
-#title-block-header > div.quarto-title-banner.page-columns.page-full > div > div.quarto-title.column-body > img {
+#title-block-header
+  > div.quarto-title-banner.page-columns.page-full
+  > div
+  > div.quarto-title.column-body
+  > img {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: auto;
@@ -27,7 +31,7 @@ $subtitle-color: #ffffff !default;
 /* Shifts title below image and centers them when on mobile */
 @media screen and (max-width: 600px) {
   .quarto-title.column-body {
-  display: block !important;
+    display: block !important;
   }
   div.quarto-title img {
     display: block;
@@ -48,16 +52,26 @@ $subtitle-color: #ffffff !default;
   grid-template-columns: repeat(2, 1fr) !important;
 }
 
-#title-block-header > div.quarto-title-banner.page-columns.page-full > div > div.quarto-title.column-body > div > h1 {
+#title-block-header
+  > div.quarto-title-banner.page-columns.page-full
+  > div
+  > div.quarto-title.column-body
+  > div
+  > h1 {
   color: $title-color;
 }
 
-#title-block-header > div.quarto-title-banner.page-columns.page-full > div > div.quarto-title.column-body > div > p {
+#title-block-header
+  > div.quarto-title-banner.page-columns.page-full
+  > div
+  > div.quarto-title.column-body
+  > div
+  > p {
   color: $subtitle-color;
 }
 
 /* This adds a little top padding to the title banner, just an aesthetic improvement */
-.quarto-title-banner{
+.quarto-title-banner {
   padding-top: 0.5in;
   padding-bottom: 0.5in;
 }
@@ -83,7 +97,10 @@ $subtitle-color: #ffffff !default;
 }
 
 /* Replaces the left and right margins with equal padding */
-.quarto-title-banner, .quarto-title-meta, .abstract, .content{
+.quarto-title-banner,
+.quarto-title-meta,
+.abstract,
+.content {
   padding-left: 0.5in;
   padding-right: 0.5in;
 }

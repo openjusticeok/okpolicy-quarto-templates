@@ -9,4 +9,3 @@ quarto use template openjusticeok/okpolicy-quarto-templates/templates/okpolicy-r
 quarto use template openjusticeok/okpolicy-quarto-templates/templates/okpolicy-website-template
 quarto use template openjusticeok/okpolicy-quarto-templates/templates/ojo-report-template
 ```
-

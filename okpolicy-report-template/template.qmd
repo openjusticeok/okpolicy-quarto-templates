@@ -73,15 +73,8 @@ Here's a table, too:
 
 ```{r}
 
-# {gt} is our preferred table manager:
-mtcars |>
-  head(5) |>
-  gt::gt()
-
-# Knitr has some more basic options:
-# mtcars |>
-#   head(8) |>
-#   knitr::kable()
+# head() displays the first few rows of a data frame:
+head(mtcars, 5)
 
 ```
 

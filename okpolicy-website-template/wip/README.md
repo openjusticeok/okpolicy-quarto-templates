@@ -20,6 +20,7 @@ personal development sandbox. It is invisible to the main site's render process.
 ## Promoting a project to the main site
 
 When a project is ready:
+
 1. Move the entire folder (e.g. `wip/my-new-project/`) to the root of the
    main project
 2. Add a link to it in the main `_quarto.yml` navbar

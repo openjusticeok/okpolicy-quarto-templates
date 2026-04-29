@@ -6,6 +6,7 @@ project:
 
 website:
   title: "Oklahoma Policy Institute"
+  favicon: www/favicon.gif
   search: false
   navbar:
     background: "#2f507f"

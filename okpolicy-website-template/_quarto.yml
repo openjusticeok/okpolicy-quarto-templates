@@ -8,6 +8,13 @@ website:
   title: "Oklahoma Policy Institute"
   favicon: www/favicon.gif
   search: false
+  # link previews:  the opi logo is shown by default when a link to a page is shared (slack, social media, etc.)
+  # ... to change to a custom logo replace the open-graph and twitter-card URLs
+  open-graph:
+    image: https://raw.githubusercontent.com/openjusticeok/okpolicy-quarto-templates/main/okpolicy-website-template/www/okpi-square.png
+  twitter-card:
+    image: https://raw.githubusercontent.com/openjusticeok/okpolicy-quarto-templates/main/okpolicy-website-template/www/okpi-square.png
+    card-style: summary
   navbar:
     background: "#2f507f"
     foreground: "#ffffff"

@@ -12,3 +12,9 @@ contributes:
       include-in-header:
         text: |
           <link rel="icon" type="image/gif" href="www/favicon.gif">
+          <meta property="og:type" content="article">
+          <meta property="og:site_name" content="Oklahoma Policy Institute">
+          <meta property="og:image" content="https://raw.githubusercontent.com/openjusticeok/okpolicy-quarto-templates/main/okpolicy-report-template/www/okpi-square.png">
+          <meta property="og:image:alt" content="Oklahoma Policy Institute logo">
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:image" content="https://raw.githubusercontent.com/openjusticeok/okpolicy-quarto-templates/main/okpolicy-report-template/www/okpi-square.png">
